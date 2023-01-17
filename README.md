@@ -2,7 +2,7 @@
 
 # InfinityVault
 
-![Python Version](https://img.shields.io/badge/python-3.8+-blue?style=for-the-badge&logo=python)
+![JAVA Version](https://img.shields.io/badge/java-8-ornge?style=for-the-badge&logo=java)
 ![OS](https://img.shields.io/badge/OS-GNU%2FLinux-red?style=for-the-badge&logo=linux)
 ![Platform](https://img.shields.io/badge/androidstudio-4.1+-green?style=for-the-badge&logo=androidstudio)
 
@@ -16,43 +16,25 @@ This offers local consumers brand-new banking level services derived from open-s
 ![app_demo](https://user-images.githubusercontent.com/15611424/178045423-067df4ec-1853-400e-9b5a-10154cb6fcc1.gif)
 
 ## Running the Application
-### I. Development Mode
-Simply clone this repository with `git clone`, install the dependencies and execute the 
-`sniffer.py` file.
-```
-user@host:~$ git clone https://github.com/EONRaider/Packet-Sniffer.git
-user@host:~$ cd Packet-Sniffer
-user@host:~/packet-sniffer$ pip install -r requirements.txt <--or--> poetry install
-user@host:~/packet-sniffer$ sudo python3 packet_sniffer/sniffer.py
-```
+### I. Login Phase
 
-*The `sudo` command is required due to the use of `socket.SOCK_RAW`,
-which needs administrative privileges to run on GNU/Linux. Notice
-that the existence of dependencies may require the execution of the interpreter contained in
-the virtual environment in which the dependencies have been installed (if you use one),
-instead of just using the system interpreter.*
+1. Setup the Project - 
+Once you have the project’s code on your computer, you need toinstall its dependencies by moving into the project’s folder andtyping the following command: `npm install`
 
-### II. (Optional) Build the binary
-Use the `build.py` file to compile your own binary with the `PyInstaller` package. You just need to install all dependencies and build. 
-Dependency management works with both [Poetry](https://python-poetry.org/) (recommended) and [Virtualenv](https://virtualenv.pypa.io/en/latest/). 
-```
-<-- Install dependencies as shown above in Step I -->
-user@host:~/packet-sniffer$ python3 build.py
-```
+2. Configure the Application - 
+allow you to assign phone numbers and/or links to external accounts for services like messenger, whatsApp, or viber so that you can send SMS or messages through the message and Dispatch API.
 
-## Usage
-```
-sniffer.py [-h] [-i INTERFACE] [-d]
+3. Configure the OTP Service- 
+Once you have configure, you have to configure the OTP serviceside in order to make them communicate with each other.
 
-Network Packet Sniffer
+4. Running OTP Service - 
+It’s time to run your OTP service. If everything is OK, you shouldsee the message *“This is the OTP service”*.
 
-optional arguments:
-  -h, --help            show this help message and exit
-  -i INTERFACE, --interface INTERFACE
-                        Interface from which packets will be captured (monitors
-                        all available interfaces by default).
-  -d, --data            Output packet data during capture.
-```
+5. Request OTP Service - 
+The OTP service will generate an OTP composed of 5 digits and will send it to the specified Messenger identifier. If the user doesn’t read it within a given amount of time, the OTP will besent via SMS to the phone number.
+
+6. Verifying the OTP Service - 
+Regardless of the medium by which the message was received,the user should verify the OTP by submitting a `GET` request to the second `API`
 
 ## Legal Disclaimer
 The use of code contained in this repository, either in part or in its totality,
