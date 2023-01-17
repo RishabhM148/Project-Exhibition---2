@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "929371269188",
+    "project_id": "infinity-vault",
+    "storage_bucket": "infinity-vault.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:929371269188:android:6395becf52cf9541a3f411",
+        "android_client_info": {
+          "package_name": "com.example.infinity_vault"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "929371269188-uf4pg2hln9lvpli62jmd5g45fuocpp2m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2M3q0rME01N5rkI1upOg4Z-l0Q470pAw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "929371269188-uf4pg2hln9lvpli62jmd5g45fuocpp2m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
