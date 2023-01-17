@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">929371269188-uf4pg2hln9lvpli62jmd5g45fuocpp2m.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">929371269188</string>
+    <string name="google_api_key" translatable="false">AIzaSyB2M3q0rME01N5rkI1upOg4Z-l0Q470pAw</string>
+    <string name="google_app_id" translatable="false">1:929371269188:android:6395becf52cf9541a3f411</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyB2M3q0rME01N5rkI1upOg4Z-l0Q470pAw</string>
+    <string name="google_storage_bucket" translatable="false">infinity-vault.appspot.com</string>
+    <string name="project_id" translatable="false">infinity-vault</string>
+</resources>
