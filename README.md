@@ -36,6 +36,11 @@ The OTP service will generate an OTP composed of 5 digits and will send it to th
 6. Verifying the OTP Service - 
 Regardless of the medium by which the message was received,the user should verify the OTP by submitting a `GET` request to the second `API`
 
+## Know More at
+```
+https://www.canva.com/design/DAE1Cb78zEQ/olBTkJKiuZHt7czOkuU_Ww/view?utm_content=DAE1Cb78zEQ&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink
+```
+
 ## Legal Disclaimer
 The use of code contained in this repository, either in part or in its totality,
 for engaging targets without prior mutual consent is illegal. **It is
